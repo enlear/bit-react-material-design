@@ -15,7 +15,7 @@
     },
     "ui/inputs/button": {
         "scope": "enlear.react-material-design",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "enlear.react-material-design/ui/inputs/button"
     },
@@ -27,7 +27,7 @@
     },
     "ui/inputs/select": {
         "scope": "enlear.react-material-design",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "enlear.react-material-design/ui/inputs/select"
     },
