@@ -1,9 +1,8 @@
-
+import { Box } from '@enlear/react-material-design.ui.layout.box';
 import { Container } from '@enlear/react-material-design.ui.layout.container';
 import { Grid } from '@enlear/react-material-design.ui.layout.grid';
 import { Appbar } from '@enlear/react-material-design.ui.surfaces.appbar';
 import { ProductCard } from '@enlear/react-material-design.widgets.product-card';
-import { Box } from '@enlear/react-material-design.ui.layout.box';
 import React from 'react';
 
 const products = [{
