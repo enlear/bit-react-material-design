@@ -3,13 +3,13 @@
 {
     "pages/product-form": {
         "scope": "enlear.react-material-design",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "enlear.react-material-design/pages/product-form"
     },
     "pages/products": {
         "scope": "enlear.react-material-design",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "enlear.react-material-design/pages/products"
     },
@@ -21,7 +21,7 @@
     },
     "ui/inputs/radio": {
         "scope": "enlear.react-material-design",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "enlear.react-material-design/ui/inputs/radio"
     },
@@ -39,7 +39,7 @@
     },
     "ui/layout/box": {
         "scope": "enlear.react-material-design",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "enlear.react-material-design/ui/layout/box"
     },
@@ -51,25 +51,25 @@
     },
     "ui/layout/grid": {
         "scope": "enlear.react-material-design",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "enlear.react-material-design/ui/layout/grid"
     },
     "ui/surfaces/appbar": {
         "scope": "enlear.react-material-design",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "enlear.react-material-design/ui/surfaces/appbar"
     },
     "ui/surfaces/card": {
         "scope": "enlear.react-material-design",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "enlear.react-material-design/ui/surfaces/card"
     },
     "widgets/product-card": {
         "scope": "enlear.react-material-design",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "enlear.react-material-design/widgets/product-card"
     },

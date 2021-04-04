@@ -4,9 +4,9 @@ import { BasicProductForm } from './product-form.composition';
 
 describe('product-form', () => {
 
-  it('should render with product name input item', () => {
+  it('should render the create product button', () => {
     const { getByText } = render(<BasicProductForm />);
-    const rendered = getByText('Product Name');
+    const rendered = getByText('Create New Product');
     expect(rendered).toBeTruthy();
   });
 

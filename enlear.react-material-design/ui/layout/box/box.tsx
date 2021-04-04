@@ -15,7 +15,7 @@ const bgColorMap = {
   green: "success.main",
   black: "text.primary",
   grey: "text.disabled",
-  white: "text.white"
+  white: ""
 };
 
 export const Box = ({ bgColor, children, ...rest }: BoxProps) => {
