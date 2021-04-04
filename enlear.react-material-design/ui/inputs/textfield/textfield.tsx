@@ -1,13 +1,23 @@
 import React from 'react';
+import MTextField from '@material-ui/core/TextField';
 
-export interface TextfieldProps extends React.HTMLAttributes<HTMLDivElement> {
-
+export interface TextfieldProps extends React.HTMLAttributes<HTMLInputElement> {
+  /**
+    * If true, the button will be disabled.
+    */
+  label: string,
+  /**
+   * Handler for mouse click event
+   */
+  onClick?: React.MouseEventHandler,
+  /**
+   * Handler for text change event
+   */
+  onChange?: React.ChangeEventHandler<HTMLInputElement>
 };
 
-export const Textfield = ( {children, ...rest}: TextfieldProps ) => {
+export const Textfield = ({ label, onClick, onChange }: TextfieldProps) => {
   return (
-    <div {...rest}>
-      {children}
-    </div>
+    <MTextField label={label} variant="outlined" onClick={onClick} onChange={onChange} />
   )
 };

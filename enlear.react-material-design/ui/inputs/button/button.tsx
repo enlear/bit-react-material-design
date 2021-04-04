@@ -1,7 +1,7 @@
 import React from 'react';
 import MButton from '@material-ui/core/Button';
 
-export interface ButtonProps extends React.HTMLAttributes<HTMLDivElement> {
+export interface ButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
   /**
     * If true, the button will be disabled.
    */
@@ -11,7 +11,7 @@ export interface ButtonProps extends React.HTMLAttributes<HTMLDivElement> {
    */
   href?: string,
   /**
-   * Handler for OnClick event
+   * Handler for mouse click event
    */
   onClick?: React.MouseEventHandler
 };
