@@ -4,9 +4,9 @@ import { BasicGrid } from './grid.composition';
 
 describe('grid', () => {
 
-  it('should render with the correct text', () => {
+  it('should render black box in grid', () => {
     const { getByText } = render(<BasicGrid />);
-    const rendered = getByText('hello from Grid');
+    const rendered = getByText('Black Box in Grid');
     expect(rendered).toBeTruthy();
   });
 

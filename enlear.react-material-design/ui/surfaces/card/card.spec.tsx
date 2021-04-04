@@ -4,9 +4,9 @@ import { BasicCard } from './card.composition';
 
 describe('card', () => {
 
-  it('should render with the correct text', () => {
+  it('should render with the correct title', () => {
     const { getByText } = render(<BasicCard />);
-    const rendered = getByText('hello from Card');
+    const rendered = getByText('Eggs');
     expect(rendered).toBeTruthy();
   });
 

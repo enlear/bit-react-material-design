@@ -39,19 +39,19 @@
     },
     "ui/layout/box": {
         "scope": "enlear.react-material-design",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "enlear.react-material-design/ui/layout/box"
     },
     "ui/layout/container": {
         "scope": "enlear.react-material-design",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "enlear.react-material-design/ui/layout/container"
     },
     "ui/layout/grid": {
         "scope": "enlear.react-material-design",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "enlear.react-material-design/ui/layout/grid"
     },
