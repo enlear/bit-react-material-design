@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export interface SelectProps {
+export interface SelectProps  {
   /**
     * Label for the select dropdown
    */
@@ -51,9 +51,9 @@ export const Select = ({ label, required, disabled, items, onChange }: SelectPro
   return (
     <MFormControl variant="outlined" className={classes.formControl}>
       <MInputLabel id={`label {id}`}>{label}</MInputLabel>
-      <MSelect labelId={`label {id}`} id={id} required={required} disabled={disabled} onChange={onChange} className={classes.selectEmpty}>
-        {items.map((item) => (
-          <MMenuItem value={item.value}>{item.text}</MMenuItem>
+      <MSelect labelId={`label {id}`} defaultValue="" id={id} required={required} disabled={disabled} onChange={onChange} className={classes.selectEmpty}>
+        {items.map((item, key) => (
+          <MMenuItem key={key} value={item.value}>{item.text}</MMenuItem>
         ))}
       </MSelect>
     </MFormControl>
