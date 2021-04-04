@@ -6,6 +6,7 @@ importers:
       core-js: registry.npmjs.org/core-js/3.8.3
       react: registry.npmjs.org/react/16.13.1
       react-dom: registry.npmjs.org/react-dom/16.13.1_react@16.13.1
+      uuid: registry.npmjs.org/uuid/8.3.2
     devDependencies:
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.12.18
       '@types/jest': registry.npmjs.org/@types/jest/26.0.20
@@ -23,6 +24,7 @@ importers:
       core-js: 3.8.3
       react: 16.13.1
       react-dom: 16.13.1
+      uuid: 8.3.2
   enlear.react-material-design/pages/product-form:
     specifiers: {}
   enlear.react-material-design/pages/products:
@@ -837,3 +839,12 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/tiny-warning/-/tiny-warning-1.0.3.tgz
     version: 1.0.3
+  registry.npmjs.org/uuid/8.3.2:
+    dev: false
+    hasBin: true
+    name: uuid
+    resolution:
+      integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
+      registry: https://node.bit.dev/
+      tarball: https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz
+    version: 8.3.2

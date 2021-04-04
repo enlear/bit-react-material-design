@@ -2,13 +2,37 @@
 
 
 
+
+
+
+
+
+
+
+
 
  * this is the main configuration file of your bit workspace.
 
 
 
+
+
+
+
+
+
+
+
 
  * for full documentation, please see: https://harmony-docs.bit.dev/workspace/configurations
+
+
+
+
+
+
+
+
 
 
 
@@ -19,8 +43,24 @@
 
 
 
+
+
+
+
+
+
+
+
 
    * main configuration of the Bit workspace.
+
+
+
+
+
+
+
+
 
 
 
@@ -31,8 +71,24 @@
 
 
 
+
+
+
+
+
+
+
+
 
      * the name of the component workspace. used for development purposes.
+
+
+
+
+
+
+
+
 
 
 
@@ -43,8 +99,24 @@
 
 
 
+
+
+
+
+
+
+
+
 
      * set the icon to be shown on the Bit server.
+
+
+
+
+
+
+
+
 
 
 
@@ -55,8 +127,24 @@
 
 
 
+
+
+
+
+
+
+
+
 
      * default directory for all components in workspace.
+
+
+
+
+
+
+
+
 
 
 
@@ -67,8 +155,24 @@
 
 
 
+
+
+
+
+
+
+
+
 
      * default scope for all components in workspace.
+
+
+
+
+
+
+
+
 
 
 
@@ -80,8 +184,24 @@
 
 
 
+
+
+
+
+
+
+
+
 
    * main configuration for component dependency resolution.
+
+
+
+
+
+
+
+
 
 
 
@@ -92,8 +212,24 @@
 
 
 
+
+
+
+
+
+
+
+
 
      * choose the package manager for Bit to use. you can choose between 'yarn', 'pnpm'
+
+
+
+
+
+
+
+
 
 
 
@@ -103,7 +239,8 @@
     "policy": {
       "dependencies": {
         "@material-ui/core": "4.11.3",
-        "@material-ui/styles": "4.11.3"
+        "@material-ui/styles": "4.11.3",
+        "uuid": "8.3.2"
       },
       "peerDependencies": {
         "react": "16.13.1",
@@ -120,8 +257,24 @@
 
 
 
+
+
+
+
+
+
+
+
 
    * workspace variants allow to set different subsets of configuration for components in your workspace.
+
+
+
+
+
+
+
+
 
 
 
@@ -130,8 +283,24 @@
 
 
 
+
+
+
+
+
+
+
+
 
    * new set of dependencies.
+
+
+
+
+
+
+
+
 
 
 
@@ -142,8 +311,24 @@
 
 
 
+
+
+
+
+
+
+
+
 
      * "*" is a special rule which applied on all components in the workspace.
+
+
+
+
+
+
+
+
 
 
 
@@ -154,8 +339,24 @@
 
 
 
+
+
+
+
+
+
+
+
 
        * uncomment to apply the react environment on all components.
+
+
+
+
+
+
+
+
 
 
 
