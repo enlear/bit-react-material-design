@@ -13,7 +13,7 @@ export interface RadioProps {
   /**
    * Selected value for the radio button group
    */
-  value: string,
+  value?: string,
   /**
     * Items array for the radio button group
   */

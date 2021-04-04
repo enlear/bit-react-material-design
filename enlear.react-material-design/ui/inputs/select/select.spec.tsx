@@ -4,9 +4,9 @@ import { BasicSelect } from './select.composition';
 
 describe('select', () => {
 
-  it('should render with the correct text', () => {
+  it('should have a input element', () => {
     const { getByText } = render(<BasicSelect />);
-    const rendered = getByText('Age');
+    const rendered = getByText('Select Item');
     expect(rendered).toBeTruthy();
   });
 

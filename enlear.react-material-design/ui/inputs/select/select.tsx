@@ -1,12 +1,12 @@
-import MFormControl from '@material-ui/core/FormControl';
-import MInputLabel from '@material-ui/core/InputLabel';
-import MMenuItem from '@material-ui/core/MenuItem';
-import MSelect from '@material-ui/core/Select';
-import { makeStyles } from '@material-ui/core/styles';
+import MUFormControl from '@material-ui/core/FormControl';
+import MIInputLabel from '@material-ui/core/InputLabel';
+import MUMenuItem from '@material-ui/core/MenuItem';
+import MUSelect from '@material-ui/core/Select';
+import { makeStyles as MUStyles } from '@material-ui/core/styles';
 import React from 'react';
 import { v4 as uuidv4 } from 'uuid';
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = MUStyles((theme) => ({
   formControl: {
     margin: theme.spacing(1),
     minWidth: 120,
@@ -25,8 +25,8 @@ export interface SelectProps  {
     * Items array for the select dropdown
    */
   items: {
-    value: string,
-    text: string
+    text: string,
+    value: string
   }[],
   /**
    * If true, the label is displayed as required and the input element` will be required.
@@ -49,13 +49,13 @@ export const Select = ({ label, required, disabled, items, onChange }: SelectPro
   const id = uuidv4();
   const classes = useStyles();
   return (
-    <MFormControl variant="outlined" className={classes.formControl}>
-      <MInputLabel id={`label {id}`}>{label}</MInputLabel>
-      <MSelect labelId={`label {id}`} defaultValue="" id={id} required={required} disabled={disabled} onChange={onChange} className={classes.selectEmpty}>
+    <MUFormControl variant="outlined" className={classes.formControl}>
+      <MIInputLabel id={`label {id}`}>{label}</MIInputLabel>
+      <MUSelect labelId={`label {id}`} defaultValue="" id={id} required={required} disabled={disabled} onChange={onChange} className={classes.selectEmpty}>
         {items.map((item, key) => (
-          <MMenuItem key={key} value={item.value}>{item.text}</MMenuItem>
+          <MUMenuItem key={key} value={item.value}>{item.text}</MUMenuItem>
         ))}
-      </MSelect>
-    </MFormControl>
+      </MUSelect>
+    </MUFormControl>
   )
 };

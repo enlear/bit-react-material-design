@@ -6,10 +6,6 @@ export const BasicButton = () => {
   return <Button>Button Text</Button>;
 };
 
-export const BasicButtonLinked = () => {
-  return <Button href="#linked-button">Button Text</Button>;
-};
-
 export const BasicButtonDisabled = () => {
   return <Button disabled={true}>Button Text</Button>;
 };

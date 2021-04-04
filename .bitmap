@@ -15,25 +15,25 @@
     },
     "ui/inputs/button": {
         "scope": "enlear.react-material-design",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "enlear.react-material-design/ui/inputs/button"
     },
     "ui/inputs/radio": {
         "scope": "enlear.react-material-design",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "enlear.react-material-design/ui/inputs/radio"
     },
     "ui/inputs/select": {
         "scope": "enlear.react-material-design",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "enlear.react-material-design/ui/inputs/select"
     },
     "ui/inputs/textfield": {
         "scope": "enlear.react-material-design",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "enlear.react-material-design/ui/inputs/textfield"
     },
