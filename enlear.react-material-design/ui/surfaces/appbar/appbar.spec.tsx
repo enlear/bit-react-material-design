@@ -6,7 +6,7 @@ describe('appbar', () => {
 
   it('should render with the correct text', () => {
     const { getByText } = render(<BasicAppbar />);
-    const rendered = getByText('hello from Appbar');
+    const rendered = getByText('My App');
     expect(rendered).toBeTruthy();
   });
 
