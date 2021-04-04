@@ -1,4 +1,4 @@
-import MTextField from '@material-ui/core/TextField';
+import MUTextField from '@material-ui/core/TextField';
 import React from 'react';
 
 export interface TextfieldProps extends React.HTMLAttributes<HTMLInputElement> {
@@ -18,6 +18,6 @@ export interface TextfieldProps extends React.HTMLAttributes<HTMLInputElement> {
 
 export const Textfield = ({ label, onClick, onChange }: TextfieldProps) => {
   return (
-    <MTextField label={label} variant="outlined" onClick={onClick} onChange={onChange} />
+    <MUTextField label={label} variant="outlined" onClick={onClick} onChange={onChange} />
   )
 };
