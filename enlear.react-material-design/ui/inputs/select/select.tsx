@@ -5,14 +5,12 @@ import MInputLabel from '@material-ui/core/InputLabel';
 import MSelect from '@material-ui/core/Select';
 import { v4 as uuidv4 } from 'uuid';
 
-export interface SelectItem {
-  value: string,
-  text: string
-}
-
 export interface SelectProps extends React.HTMLAttributes<HTMLDivElement> {
   label: string,
-  items: SelectItem[]
+  items: {
+    value: string,
+    text: string
+  }[]
 }
 
 export const Select = ({ label, items, ...rest }: SelectProps) => {

@@ -6,7 +6,7 @@ describe('select', () => {
 
   it('should render with the correct text', () => {
     const { getByText } = render(<BasicSelect />);
-    const rendered = getByText('hello from Select');
+    const rendered = getByText('Age');
     expect(rendered).toBeTruthy();
   });
 

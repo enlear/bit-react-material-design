@@ -2,74 +2,74 @@
 
 {
     "pages/product-form": {
-        "scope": "",
-        "version": "",
+        "scope": "enlear.react-material-design",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "enlear.react-material-design/pages/product-form"
     },
     "pages/products": {
-        "scope": "",
-        "version": "",
+        "scope": "enlear.react-material-design",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "enlear.react-material-design/pages/products"
     },
     "ui/inputs/button": {
-        "scope": "",
-        "version": "",
+        "scope": "enlear.react-material-design",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "enlear.react-material-design/ui/inputs/button"
     },
     "ui/inputs/radio": {
-        "scope": "",
-        "version": "",
+        "scope": "enlear.react-material-design",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "enlear.react-material-design/ui/inputs/radio"
     },
     "ui/inputs/select": {
-        "scope": "",
-        "version": "",
+        "scope": "enlear.react-material-design",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "enlear.react-material-design/ui/inputs/select"
     },
     "ui/inputs/textfield": {
-        "scope": "",
-        "version": "",
+        "scope": "enlear.react-material-design",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "enlear.react-material-design/ui/inputs/textfield"
     },
     "ui/layout/box": {
-        "scope": "",
-        "version": "",
+        "scope": "enlear.react-material-design",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "enlear.react-material-design/ui/layout/box"
     },
     "ui/layout/container": {
-        "scope": "",
-        "version": "",
+        "scope": "enlear.react-material-design",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "enlear.react-material-design/ui/layout/container"
     },
     "ui/layout/grid": {
-        "scope": "",
-        "version": "",
+        "scope": "enlear.react-material-design",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "enlear.react-material-design/ui/layout/grid"
     },
     "ui/surfaces/appbar": {
-        "scope": "",
-        "version": "",
+        "scope": "enlear.react-material-design",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "enlear.react-material-design/ui/surfaces/appbar"
     },
     "ui/surfaces/card": {
-        "scope": "",
-        "version": "",
+        "scope": "enlear.react-material-design",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "enlear.react-material-design/ui/surfaces/card"
     },
     "widgets/product-card": {
-        "scope": "",
-        "version": "",
+        "scope": "enlear.react-material-design",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "enlear.react-material-design/widgets/product-card"
     },
