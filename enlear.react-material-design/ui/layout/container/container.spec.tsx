@@ -1,12 +1,24 @@
-import React from 'react';
 import { render } from '@testing-library/react';
-import { BasicContainer } from './container.composition';
+import React from 'react';
+import { LargeContainer, MediumContainer, SmallContainer } from './container.composition';
 
 describe('container', () => {
 
-  it('should render with the correct text', () => {
-    const { getByText } = render(<BasicContainer />);
-    const rendered = getByText('hello from Container');
+  it('small container should have the "Small Container" text', () => {
+    const { getByText } = render(<SmallContainer />);
+    const rendered = getByText('Small Container');
+    expect(rendered).toBeTruthy();
+  });
+
+  it('small container should have the "Medium Container" text', () => {
+    const { getByText } = render(<MediumContainer />);
+    const rendered = getByText('Medium Container');
+    expect(rendered).toBeTruthy();
+  });
+
+  it('small container should have the "Large Container" text', () => {
+    const { getByText } = render(<LargeContainer />);
+    const rendered = getByText('Large Container');
     expect(rendered).toBeTruthy();
   });
 

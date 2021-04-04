@@ -2,6 +2,9 @@ import React from 'react';
 import MUBox from '@material-ui/core/Box';
 
 export interface BoxProps extends React.HTMLAttributes<HTMLDivElement> {
+  /**
+   * Set the background color of the box
+   */
   bgColor: "blue" | "red" | "yellow" | "green" | "black" | "grey"
 };
 
