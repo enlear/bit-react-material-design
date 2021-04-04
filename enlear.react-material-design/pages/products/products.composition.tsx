@@ -3,5 +3,5 @@ import { Products } from './products';
 
 // sets the Component preview in gallery view
 export const BasicProducts = () => {
-  return <Products>hello from Products</Products>;
+  return <Products></Products>;
 };

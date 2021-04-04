@@ -4,10 +4,10 @@ import { BasicProducts } from './products.composition';
 
 describe('products', () => {
 
-  it('should render with the correct text', () => {
-    const { getByText } = render(<BasicProducts />);
-    const rendered = getByText('hello from Products');
-    expect(rendered).toBeTruthy();
+  it('should contain 4 products in the grid', () => {
+    const { getAllByText } = render(<BasicProducts />);
+    const rendered = getAllByText('Buy');
+    expect(rendered).toHaveLength(4);
   });
 
 })

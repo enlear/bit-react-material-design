@@ -5,7 +5,7 @@ export interface BoxProps extends React.HTMLAttributes<HTMLDivElement> {
   /**
    * Set the background color of the box
    */
-  bgColor: "blue" | "red" | "yellow" | "green" | "black" | "grey"
+  bgColor: "blue" | "red" | "yellow" | "green" | "black" | "grey" | "white"
 };
 
 const bgColorMap = {
@@ -14,7 +14,8 @@ const bgColorMap = {
   yellow: "warning.main",
   green: "success.main",
   black: "text.primary",
-  grey: "text.disabled"
+  grey: "text.disabled",
+  white: "text.white"
 };
 
 export const Box = ({ bgColor, children, ...rest }: BoxProps) => {
