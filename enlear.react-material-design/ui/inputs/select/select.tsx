@@ -8,8 +8,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 const useStyles = MUStyles((theme) => ({
   formControl: {
-    margin: theme.spacing(1),
-    minWidth: 120,
+    minWidth: 200,
   },
   selectEmpty: {
     marginTop: theme.spacing(2),

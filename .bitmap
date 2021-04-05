@@ -3,7 +3,7 @@
 {
     "pages/product-form": {
         "scope": "enlear.react-material-design",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "enlear.react-material-design/pages/product-form"
     },
@@ -27,7 +27,7 @@
     },
     "ui/inputs/select": {
         "scope": "enlear.react-material-design",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "enlear.react-material-design/ui/inputs/select"
     },
