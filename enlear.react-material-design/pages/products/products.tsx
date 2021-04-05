@@ -40,6 +40,8 @@ export const Products = () => {
                 title={product.title}
                 description={product.description}
                 image={product.image}
+                onBuy={() => { alert("Your purchase request is recorded!"); }}
+                onLearnMore={() => { alert("You have clicked Learn More about the fruit!"); }}
               ></ProductCard>
             </Grid>
           ))}

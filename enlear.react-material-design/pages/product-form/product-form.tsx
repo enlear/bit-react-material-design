@@ -28,7 +28,7 @@ export const ProductForm = () => {
         { text: "2021", value: "2" }
       ]} />
       <Box bgColor="white"></Box>
-      <Button>Create New Product</Button>
+      <Button onClick={() => { alert("Form submitted!"); }}>Create New Product</Button>
     </Container>
   </Container>
   )

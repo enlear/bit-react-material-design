@@ -15,14 +15,22 @@ export interface ProductCardProps extends React.HTMLAttributes<HTMLDivElement> {
    * Product thumbnail URL
    */
   image: string,
+  /**
+   * Handler for Buy click event
+   */
+  onBuy?: React.MouseEventHandler,
+  /**
+  * Handler for Learn More click event
+  */
+  onLearnMore?: React.MouseEventHandler
 };
 
-export const ProductCard = ({ title, description, image, ...rest }: ProductCardProps) => {
+export const ProductCard = ({ title, description, image, onBuy, onLearnMore, ...rest }: ProductCardProps) => {
   return (
     <Card {...rest}
       title={title}
       description={description}
-      actions={[<Button key={1}>Buy</Button>, <Button key={2}>Learn More</Button>]}
+      actions={[<Button key={1} onClick={onBuy}>Buy</Button>, <Button key={2} onClick={onLearnMore}>Learn More</Button>]}
       image={image}>
     </Card>
   )
